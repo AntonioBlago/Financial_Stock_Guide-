@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 25 09:37:50 2019
-
-@author: antonio.blago
-"""
-
-# -*- coding: utf-8 -*-
 """
 Created on Wed Nov  6 13:03:42 2019
 
@@ -21,10 +13,6 @@ from sqlalchemy import create_engine #suport pd.dataframe to sql table
 #import mysqlclient
 
 engine = create_engine("sqlite:///Portfolio_dividens.db")
-
-
-
-#engine = create_engine('mysql+mysqldb://scott:tiger@localhost/foo')
 
 #%% Set up path
 
@@ -49,16 +37,6 @@ tickers=list(tickers_df['Ticker'])
 tablenames=list(tickers_df['tablenames'])
 
 
-#%%
-#mySql_Create_Table_Query = """CREATE TABLE Laptop ( 
-#                             Date Date NOT NULL
-#                             High float NOT NULL,
-#                             Low float NOT NULL,
-#                             Open float NOT NULL,
-#                             Close float NOT NULL,
-#                             Volume float NOT NULL,
-#                             Close int(11) NOT NULL,
-#                             PRIMARY KEY (Id)) """
 from sqlalchemy import inspect
 
 
