@@ -42,7 +42,7 @@ date_today=dt.date.today()
 
 start_1='2005-1-1'
 
-tickers_df=pd.read_excel(path+r'\Dividends.xlsx')
+tickers_df=pd.read_excel(path+r'\Tickers.xlsx')
 
 tickers=list(tickers_df['Ticker'])
 
