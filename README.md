@@ -1,7 +1,7 @@
 # Financial_Stock_Guide
 This is a step by step guide of how you can set up a sqlite stock database and do some trend analysis and portfolio optimzation. Import and update stock data from yahoo finance.
 
-Set up steps
+0. Set up steps
 1. Get latest python version 
 Python 3.7.3 64-bit, spyder 4.0.0. from Anaconda
 
